@@ -20,15 +20,16 @@ MODEL BREAKDOWN
 1. Prepare data transforming into tensors.
 2. Map images with labels.
 3. Preprocessing Images (Turning Images into Tensors)
-- Take an image filepath as imput
-- Use Tensor to read the file and save it to a variable, 'image'
-- Turn our 'image (a jpg) into Tensors
-- Normalize image (convert from 0-255 to 0-1)
-- Resize the 'image' to be a shape of (224, 224)
-- Return the modify 'images'
-
+    - Take an image filepath as imput
+    - Use Tensor to read the file and save it to a variable, 'image'
+    - Turn our 'image (a jpg) into Tensors
+    - Normalize image (convert from 0-255 to 0-1)
+    - Resize the 'image' to be a shape of (224, 224)
+    - Return the modify 'images'
 4. Turning our data into batches
 5.  Create callbacks
 6.  Train the model
 7.  Making and evaluating prediction with probailities.
+
+
 ![image](https://user-images.githubusercontent.com/100526221/208555270-e9a9bab0-d47d-44f6-a079-a66e6d52c110.png)
